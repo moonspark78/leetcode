@@ -23,3 +23,16 @@ function largeest(arr){
     },arr[0])
 }
 console.log(largeest([7,3,2,12,4,9]));
+
+
+// Third way
+function largestt(arr){
+    let max = 0;
+    for (let i = 0; i < arr.length; i++){
+        if(arr[i] > max){
+            max = arr[i]
+        }
+    }
+    return max;
+}
+console.log(largeest([3,2,11,4,9]));
