@@ -1,0 +1,8 @@
+/* 
+Problem statement
+Given an array ‘arr’ of size ‘n’ find the largest element in the array.
+
+Example:
+Input: 'n' = 5, 'arr' = [1, 2, 3, 4, 5]
+Output: 5
+ */
