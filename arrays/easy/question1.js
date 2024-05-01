@@ -14,3 +14,12 @@ function largest(arr){
     return arr[arr.length-1]
 }
 console.log(largest([7,3,2,6,4]));
+
+
+//Second way
+function largeest(arr){
+    return arr.reduce((acc,cur) =>{
+        return acc > cur ? acc : cur
+    },arr[0])
+}
+console.log(largeest([7,3,2,12,4,9]));
