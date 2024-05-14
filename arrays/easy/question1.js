@@ -13,7 +13,7 @@ function largest(arr){
     arr.sort((a,b) => a - b)
     return arr[arr.length-1]
 }
-console.log(largest([7,3,2,6,4]));
+console.log(largest([7,2,2,6,4]));
 
 
 //Second way
@@ -22,7 +22,7 @@ function largeest(arr){
         return acc > cur ? acc : cur
     },arr[0])
 }
-console.log(largeest([7,3,2,12,4,9]));
+console.log(largeest([7,3,2,12,3,9]));
 
 
 // Third way
@@ -35,4 +35,4 @@ function largestt(arr){
     }
     return max;
 }
-console.log(largeest([3,2,11,4,9]));
+console.log(largeest([3,2,11,5,9]));
