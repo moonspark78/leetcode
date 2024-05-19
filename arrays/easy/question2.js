@@ -17,4 +17,4 @@ function secondLargest(arr){
     return second;
 }
 
-console.log(secondLargest([2,4,6,6]));
+console.log(secondLargest([2,3,4,6,6]));
