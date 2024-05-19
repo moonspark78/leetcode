@@ -10,11 +10,11 @@ function secondLargest(arr){
     let second;
     for(let i = arr.length-2; i>=0; i--){
         if(arr[i] != largest){
-             second = arr[i];
+            second = arr[i];
+            break;
         }
-        break;
     }
     return second;
 }
 
-console.log(secondLargest([7,2,4,5]));
+console.log(secondLargest([2,4,6,6]));
