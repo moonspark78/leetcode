@@ -13,4 +13,5 @@ function isMissing(arr){
     return missing;
 }
 
+console.log(isMissing([0, 1, 2, 3]));
 
