@@ -10,4 +10,9 @@ Explanation: The first two digits or the last three digits are consecutive 1s. T
 function maxConsecutiveOnes(arr){
     let maxOnes = 0;
     let currentOnes = 0;
-}
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 1){
+            currentOnes++;
+        }
+    }
+};
