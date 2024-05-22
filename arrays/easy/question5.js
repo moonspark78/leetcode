@@ -8,5 +8,6 @@ Explanation: The first two digits or the last three digits are consecutive 1s. T
 */
 
 function maxConsecutiveOnes(arr){
-    
+    let maxOnes = 0;
+    let currentOnes = 0;
 }
