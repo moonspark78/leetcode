@@ -6,11 +6,15 @@ For numbers which are multiples of both three and five print “Burger”
 function isMultiple(){
     for(let i = 0; i <=87 ; i++){
         if(i % 3 === 0 && i % 5 === 0){
-            return "Burger"
+            console.log("Burger");
         }else if(i % 3 ===0){
-            return "Three"
-        }else if(i % 3 ===0){
-            return "Five"
+            console.log("Three");
+        }else if(i % 5 ===0){
+             console.log("Five");
+        }else{
+            console.log(i);
         }
     }
-}
+} 
+
+console.log(isMultiple());
