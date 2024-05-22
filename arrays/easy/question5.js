@@ -20,7 +20,7 @@ function maxConsecutiveOnes(arr){
         else{
             currentOnes =0;
         }
-
     }
+    return maxOnes;
 };
-
+console.log(maxConsecutiveOnes([1,1,0,1,0,1,1,1,1,1,1]));
