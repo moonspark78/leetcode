@@ -13,6 +13,14 @@ function maxConsecutiveOnes(arr){
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === 1){
             currentOnes++;
+            if(currentOnes>maxOnes){
+                maxOnes = currentOnes;
+            }
         }
+        else{
+            currentOnes =0;
+        }
+
     }
 };
+
